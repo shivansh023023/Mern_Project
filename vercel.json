@@ -18,14 +18,5 @@
       "src": "/(.*)",
       "dest": "/frontend/index.html"
     }
-  ],
-  "env": {
-    "DB_URL": "@db_url",
-    "JWT_SECRET": "@jwt_secret",
-    "JWT_EXPIRE": "@jwt_expire",
-    "CLOUDINARY_CLOUD_NAME": "@cloudinary_cloud_name",
-    "CLOUDINARY_API_KEY": "@cloudinary_api_key",
-    "CLOUDINARY_API_SECRET": "@cloudinary_api_secret",
-    "FRONTEND_URL": "@frontend_url"
-  }
+  ]
 }
